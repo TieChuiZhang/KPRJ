@@ -1,0 +1,748 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2476F293793337DB7E765DCF /* libPods-开票软件.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50742074F7D1DFDE6A46A42B /* libPods-开票软件.a */; };
+		9B09F3531E88C15F0035A618 /* 二维码.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B09F3521E88C15F0035A618 /* 二维码.png */; };
+		9B4886111E9F1340009C92CA /* CodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6921271E87A85500FB0D45 /* CodeViewController.m */; };
+		9B4F18CD1E8DE2F7009E5C69 /* LoginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F18CC1E8DE2F7009E5C69 /* LoginModel.m */; };
+		9B6920CC1E85278100FB0D45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6920CB1E85278100FB0D45 /* main.m */; };
+		9B6920D81E85278100FB0D45 /* ____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B6920D61E85278100FB0D45 /* ____.xcdatamodeld */; };
+		9B6920DA1E85278100FB0D45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6920D91E85278100FB0D45 /* Assets.xcassets */; };
+		9B6920DD1E85278100FB0D45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6920DB1E85278100FB0D45 /* LaunchScreen.storyboard */; };
+		9B6920EE1E86788300FB0D45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6920EC1E86788300FB0D45 /* Main.storyboard */; };
+		9B6921361E87A85500FB0D45 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6921161E87A85500FB0D45 /* MBProgressHUD.m */; };
+		9B6921371E87A85500FB0D45 /* HMScanerCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6921191E87A85500FB0D45 /* HMScanerCardViewController.m */; };
+		9B6921381E87A85500FB0D45 /* HMScanner.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B69211A1E87A85500FB0D45 /* HMScanner.bundle */; };
+		9B6921391E87A85500FB0D45 /* HMScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B69211C1E87A85500FB0D45 /* HMScanner.m */; };
+		9B69213A1E87A85500FB0D45 /* HMScannerBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B69211E1E87A85500FB0D45 /* HMScannerBorder.m */; };
+		9B69213B1E87A85500FB0D45 /* HMScannerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6921201E87A85500FB0D45 /* HMScannerController.m */; };
+		9B69213C1E87A85500FB0D45 /* HMScannerMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6921221E87A85500FB0D45 /* HMScannerMaskView.m */; };
+		9B69213D1E87A85500FB0D45 /* HMScannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6921241E87A85500FB0D45 /* HMScannerViewController.m */; };
+		9B69213F1E87A85500FB0D45 /* MJRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6921291E87A85500FB0D45 /* MJRViewController.m */; };
+		9B6921401E87A85500FB0D45 /* OrdinaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B69212B1E87A85500FB0D45 /* OrdinaryViewController.m */; };
+		9B6921411E87A85500FB0D45 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B69212D1E87A85500FB0D45 /* ViewController.m */; };
+		9B6921421E87A85500FB0D45 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6921301E87A85500FB0D45 /* AppDelegate.m */; };
+		9B6921431E87A85500FB0D45 /* 叉子删除.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6921341E87A85500FB0D45 /* 叉子删除.png */; };
+		9B69214B1E87C04D00FB0D45 /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6921481E87C04D00FB0D45 /* ForgetViewController.m */; };
+		9B69214C1E87C04D00FB0D45 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B69214A1E87C04D00FB0D45 /* RegisterViewController.m */; };
+		9B69214F1E87C1BE00FB0D45 /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B69214E1E87C1BE00FB0D45 /* LogInViewController.m */; };
+		9B6921521E87C46D00FB0D45 /* login_qq.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6921501E87C46D00FB0D45 /* login_qq.png */; };
+		9B6921531E87C46D00FB0D45 /* login_weibo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6921511E87C46D00FB0D45 /* login_weibo.png */; };
+		9B6921591E87D92900FB0D45 /* AuthCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6921581E87D92900FB0D45 /* AuthCodeView.m */; };
+		9BFBAD7F1E99EF5F009C3575 /* LLSimpleCamera+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD641E99EF5F009C3575 /* LLSimpleCamera+Helper.m */; };
+		9BFBAD801E99EF5F009C3575 /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD661E99EF5F009C3575 /* LLSimpleCamera.m */; };
+		9BFBAD811E99EF5F009C3575 /* SKFCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBAD671E99EF5F009C3575 /* SKFCamera.bundle */; };
+		9BFBAD821E99EF5F009C3575 /* SKFCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD691E99EF5F009C3575 /* SKFCamera.m */; };
+		9BFBAD831E99EF5F009C3575 /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD6B1E99EF5F009C3575 /* TOActivityCroppedImageProvider.m */; };
+		9BFBAD841E99EF5F009C3575 /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD6D1E99EF5F009C3575 /* TOCropOverlayView.m */; };
+		9BFBAD851E99EF5F009C3575 /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD6F1E99EF5F009C3575 /* TOCroppedImageAttributes.m */; };
+		9BFBAD861E99EF5F009C3575 /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD711E99EF5F009C3575 /* TOCropScrollView.m */; };
+		9BFBAD871E99EF5F009C3575 /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD731E99EF5F009C3575 /* TOCropToolbar.m */; };
+		9BFBAD881E99EF5F009C3575 /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD751E99EF5F009C3575 /* TOCropView.m */; };
+		9BFBAD891E99EF5F009C3575 /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD771E99EF5F009C3575 /* TOCropViewController.m */; };
+		9BFBAD8A1E99EF5F009C3575 /* TOCropViewControllerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BFBAD781E99EF5F009C3575 /* TOCropViewControllerLocalizable.strings */; };
+		9BFBAD8B1E99EF5F009C3575 /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD7A1E99EF5F009C3575 /* TOCropViewControllerTransitioning.m */; };
+		9BFBAD8C1E99EF5F009C3575 /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD7C1E99EF5F009C3575 /* UIImage+CropRotate.m */; };
+		9BFBAD8D1E99EF5F009C3575 /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD7E1E99EF5F009C3575 /* UIImage+FixOrientation.m */; };
+		9BFBAD911E99F67A009C3575 /* YBPopupMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD901E99F67A009C3575 /* YBPopupMenu.m */; };
+		9BFBAD951E99FE1E009C3575 /* PackageAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BFBAD941E99FE1E009C3575 /* PackageAPI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D0D5F133B776C1D19F769CF /* Pods-开票软件.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-开票软件.debug.xcconfig"; path = "Pods/Target Support Files/Pods-开票软件/Pods-开票软件.debug.xcconfig"; sourceTree = "<group>"; };
+		50742074F7D1DFDE6A46A42B /* libPods-开票软件.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-开票软件.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B09F3521E88C15F0035A618 /* 二维码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "二维码.png"; sourceTree = "<group>"; };
+		9B09F3541E88F3D80035A618 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9B4F18CB1E8DE2F7009E5C69 /* LoginModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginModel.h; sourceTree = "<group>"; };
+		9B4F18CC1E8DE2F7009E5C69 /* LoginModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginModel.m; sourceTree = "<group>"; };
+		9B6920C71E85278100FB0D45 /* 开票软件.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "开票软件.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6920CB1E85278100FB0D45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B6920D71E85278100FB0D45 /* ____.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ____.xcdatamodel; sourceTree = "<group>"; };
+		9B6920D91E85278100FB0D45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B6920DC1E85278100FB0D45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B6920DE1E85278100FB0D45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B6920ED1E86788300FB0D45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B6921151E87A85500FB0D45 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9B6921161E87A85500FB0D45 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		9B6921181E87A85500FB0D45 /* HMScanerCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScanerCardViewController.h; sourceTree = "<group>"; };
+		9B6921191E87A85500FB0D45 /* HMScanerCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScanerCardViewController.m; sourceTree = "<group>"; };
+		9B69211A1E87A85500FB0D45 /* HMScanner.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HMScanner.bundle; sourceTree = "<group>"; };
+		9B69211B1E87A85500FB0D45 /* HMScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScanner.h; sourceTree = "<group>"; };
+		9B69211C1E87A85500FB0D45 /* HMScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScanner.m; sourceTree = "<group>"; };
+		9B69211D1E87A85500FB0D45 /* HMScannerBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerBorder.h; sourceTree = "<group>"; };
+		9B69211E1E87A85500FB0D45 /* HMScannerBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerBorder.m; sourceTree = "<group>"; };
+		9B69211F1E87A85500FB0D45 /* HMScannerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerController.h; sourceTree = "<group>"; };
+		9B6921201E87A85500FB0D45 /* HMScannerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerController.m; sourceTree = "<group>"; };
+		9B6921211E87A85500FB0D45 /* HMScannerMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerMaskView.h; sourceTree = "<group>"; };
+		9B6921221E87A85500FB0D45 /* HMScannerMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerMaskView.m; sourceTree = "<group>"; };
+		9B6921231E87A85500FB0D45 /* HMScannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMScannerViewController.h; sourceTree = "<group>"; };
+		9B6921241E87A85500FB0D45 /* HMScannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMScannerViewController.m; sourceTree = "<group>"; };
+		9B6921261E87A85500FB0D45 /* CodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeViewController.h; sourceTree = "<group>"; };
+		9B6921271E87A85500FB0D45 /* CodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeViewController.m; sourceTree = "<group>"; };
+		9B6921281E87A85500FB0D45 /* MJRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRViewController.h; sourceTree = "<group>"; };
+		9B6921291E87A85500FB0D45 /* MJRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRViewController.m; sourceTree = "<group>"; };
+		9B69212A1E87A85500FB0D45 /* OrdinaryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdinaryViewController.h; sourceTree = "<group>"; };
+		9B69212B1E87A85500FB0D45 /* OrdinaryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdinaryViewController.m; sourceTree = "<group>"; };
+		9B69212C1E87A85500FB0D45 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9B69212D1E87A85500FB0D45 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9B69212F1E87A85500FB0D45 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B6921301E87A85500FB0D45 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B6921341E87A85500FB0D45 /* 叉子删除.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "叉子删除.png"; sourceTree = "<group>"; };
+		9B6921471E87C04D00FB0D45 /* ForgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetViewController.h; sourceTree = "<group>"; };
+		9B6921481E87C04D00FB0D45 /* ForgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetViewController.m; sourceTree = "<group>"; };
+		9B6921491E87C04D00FB0D45 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		9B69214A1E87C04D00FB0D45 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		9B69214D1E87C1BE00FB0D45 /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		9B69214E1E87C1BE00FB0D45 /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		9B6921501E87C46D00FB0D45 /* login_qq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_qq.png; sourceTree = "<group>"; };
+		9B6921511E87C46D00FB0D45 /* login_weibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_weibo.png; sourceTree = "<group>"; };
+		9B6921571E87D92900FB0D45 /* AuthCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthCodeView.h; sourceTree = "<group>"; };
+		9B6921581E87D92900FB0D45 /* AuthCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthCodeView.m; sourceTree = "<group>"; };
+		9BFBAD631E99EF5F009C3575 /* LLSimpleCamera+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera+Helper.h"; sourceTree = "<group>"; };
+		9BFBAD641E99EF5F009C3575 /* LLSimpleCamera+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera+Helper.m"; sourceTree = "<group>"; };
+		9BFBAD651E99EF5F009C3575 /* LLSimpleCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSimpleCamera.h; sourceTree = "<group>"; };
+		9BFBAD661E99EF5F009C3575 /* LLSimpleCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSimpleCamera.m; sourceTree = "<group>"; };
+		9BFBAD671E99EF5F009C3575 /* SKFCamera.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SKFCamera.bundle; sourceTree = "<group>"; };
+		9BFBAD681E99EF5F009C3575 /* SKFCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFCamera.h; sourceTree = "<group>"; };
+		9BFBAD691E99EF5F009C3575 /* SKFCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFCamera.m; sourceTree = "<group>"; };
+		9BFBAD6A1E99EF5F009C3575 /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		9BFBAD6B1E99EF5F009C3575 /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		9BFBAD6C1E99EF5F009C3575 /* TOCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
+		9BFBAD6D1E99EF5F009C3575 /* TOCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
+		9BFBAD6E1E99EF5F009C3575 /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		9BFBAD6F1E99EF5F009C3575 /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
+		9BFBAD701E99EF5F009C3575 /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
+		9BFBAD711E99EF5F009C3575 /* TOCropScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
+		9BFBAD721E99EF5F009C3575 /* TOCropToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
+		9BFBAD731E99EF5F009C3575 /* TOCropToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
+		9BFBAD741E99EF5F009C3575 /* TOCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
+		9BFBAD751E99EF5F009C3575 /* TOCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
+		9BFBAD761E99EF5F009C3575 /* TOCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewController.h; sourceTree = "<group>"; };
+		9BFBAD771E99EF5F009C3575 /* TOCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewController.m; sourceTree = "<group>"; };
+		9BFBAD781E99EF5F009C3575 /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		9BFBAD791E99EF5F009C3575 /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		9BFBAD7A1E99EF5F009C3575 /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		9BFBAD7B1E99EF5F009C3575 /* UIImage+CropRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		9BFBAD7C1E99EF5F009C3575 /* UIImage+CropRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		9BFBAD7D1E99EF5F009C3575 /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		9BFBAD7E1E99EF5F009C3575 /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		9BFBAD8F1E99F67A009C3575 /* YBPopupMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBPopupMenu.h; sourceTree = "<group>"; };
+		9BFBAD901E99F67A009C3575 /* YBPopupMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBPopupMenu.m; sourceTree = "<group>"; };
+		9BFBAD931E99FE1E009C3575 /* PackageAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PackageAPI.h; sourceTree = "<group>"; };
+		9BFBAD941E99FE1E009C3575 /* PackageAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PackageAPI.m; sourceTree = "<group>"; };
+		FD368F2C05E2CA8104FC19ED /* Pods-开票软件.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-开票软件.release.xcconfig"; path = "Pods/Target Support Files/Pods-开票软件/Pods-开票软件.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B6920C41E85278100FB0D45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2476F293793337DB7E765DCF /* libPods-开票软件.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E5EF1421490AB8BE1F3EEAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D0D5F133B776C1D19F769CF /* Pods-开票软件.debug.xcconfig */,
+				FD368F2C05E2CA8104FC19ED /* Pods-开票软件.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B4F18CA1E8DE2E7009E5C69 /* LoginModel */ = {
+			isa = PBXGroup;
+			children = (
+				9B4F18CB1E8DE2F7009E5C69 /* LoginModel.h */,
+				9B4F18CC1E8DE2F7009E5C69 /* LoginModel.m */,
+			);
+			path = LoginModel;
+			sourceTree = "<group>";
+		};
+		9B6920BE1E85278100FB0D45 = {
+			isa = PBXGroup;
+			children = (
+				9B6920C91E85278100FB0D45 /* 开票软件 */,
+				9B6920C81E85278100FB0D45 /* Products */,
+				D10406638D9537C0E35A798C /* Frameworks */,
+				4E5EF1421490AB8BE1F3EEAB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		9B6920C81E85278100FB0D45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6920C71E85278100FB0D45 /* 开票软件.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B6920C91E85278100FB0D45 /* 开票软件 */ = {
+			isa = PBXGroup;
+			children = (
+				9B6921121E87A85500FB0D45 /* ALL */,
+				9B6920EC1E86788300FB0D45 /* Main.storyboard */,
+				9B6920D91E85278100FB0D45 /* Assets.xcassets */,
+				9B6920DB1E85278100FB0D45 /* LaunchScreen.storyboard */,
+				9B6920DE1E85278100FB0D45 /* Info.plist */,
+				9B6920D61E85278100FB0D45 /* ____.xcdatamodeld */,
+				9B6920CA1E85278100FB0D45 /* Supporting Files */,
+			);
+			path = "开票软件";
+			sourceTree = "<group>";
+		};
+		9B6920CA1E85278100FB0D45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B6920CB1E85278100FB0D45 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B6921121E87A85500FB0D45 /* ALL */ = {
+			isa = PBXGroup;
+			children = (
+				9B6921131E87A85500FB0D45 /* Claess */,
+				9B6921251E87A85500FB0D45 /* Controller */,
+				9B69212E1E87A85500FB0D45 /* Main */,
+				9B6921311E87A85500FB0D45 /* Model */,
+				9B6921321E87A85500FB0D45 /* Other */,
+				9B6921331E87A85500FB0D45 /* Res */,
+				9B6921351E87A85500FB0D45 /* View */,
+			);
+			path = ALL;
+			sourceTree = "<group>";
+		};
+		9B6921131E87A85500FB0D45 /* Claess */ = {
+			isa = PBXGroup;
+			children = (
+				9BFBAD8E1E99F67A009C3575 /* YBPopupMenu */,
+				9BFBAD621E99EF5F009C3575 /* SKFCamera */,
+				9B6921141E87A85500FB0D45 /* MBProgressHUD */,
+				9B6921171E87A85500FB0D45 /* QRCode */,
+			);
+			path = Claess;
+			sourceTree = "<group>";
+		};
+		9B6921141E87A85500FB0D45 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9B6921151E87A85500FB0D45 /* MBProgressHUD.h */,
+				9B6921161E87A85500FB0D45 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		9B6921171E87A85500FB0D45 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				9B6921181E87A85500FB0D45 /* HMScanerCardViewController.h */,
+				9B6921191E87A85500FB0D45 /* HMScanerCardViewController.m */,
+				9B69211A1E87A85500FB0D45 /* HMScanner.bundle */,
+				9B69211B1E87A85500FB0D45 /* HMScanner.h */,
+				9B69211C1E87A85500FB0D45 /* HMScanner.m */,
+				9B69211D1E87A85500FB0D45 /* HMScannerBorder.h */,
+				9B69211E1E87A85500FB0D45 /* HMScannerBorder.m */,
+				9B69211F1E87A85500FB0D45 /* HMScannerController.h */,
+				9B6921201E87A85500FB0D45 /* HMScannerController.m */,
+				9B6921211E87A85500FB0D45 /* HMScannerMaskView.h */,
+				9B6921221E87A85500FB0D45 /* HMScannerMaskView.m */,
+				9B6921231E87A85500FB0D45 /* HMScannerViewController.h */,
+				9B6921241E87A85500FB0D45 /* HMScannerViewController.m */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		9B6921251E87A85500FB0D45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B69214D1E87C1BE00FB0D45 /* LogInViewController.h */,
+				9B69214E1E87C1BE00FB0D45 /* LogInViewController.m */,
+				9B6921471E87C04D00FB0D45 /* ForgetViewController.h */,
+				9B6921481E87C04D00FB0D45 /* ForgetViewController.m */,
+				9B6921491E87C04D00FB0D45 /* RegisterViewController.h */,
+				9B69214A1E87C04D00FB0D45 /* RegisterViewController.m */,
+				9B6921261E87A85500FB0D45 /* CodeViewController.h */,
+				9B6921271E87A85500FB0D45 /* CodeViewController.m */,
+				9B6921281E87A85500FB0D45 /* MJRViewController.h */,
+				9B6921291E87A85500FB0D45 /* MJRViewController.m */,
+				9B69212A1E87A85500FB0D45 /* OrdinaryViewController.h */,
+				9B69212B1E87A85500FB0D45 /* OrdinaryViewController.m */,
+				9B69212C1E87A85500FB0D45 /* ViewController.h */,
+				9B69212D1E87A85500FB0D45 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9B69212E1E87A85500FB0D45 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9B69212F1E87A85500FB0D45 /* AppDelegate.h */,
+				9B6921301E87A85500FB0D45 /* AppDelegate.m */,
+				9B09F3541E88F3D80035A618 /* PrefixHeader.pch */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9B6921311E87A85500FB0D45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9BFBAD921E99FE1E009C3575 /* OCRAPI */,
+				9B4F18CA1E8DE2E7009E5C69 /* LoginModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B6921321E87A85500FB0D45 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9B6921331E87A85500FB0D45 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				9B09F3521E88C15F0035A618 /* 二维码.png */,
+				9B6921501E87C46D00FB0D45 /* login_qq.png */,
+				9B6921511E87C46D00FB0D45 /* login_weibo.png */,
+				9B6921341E87A85500FB0D45 /* 叉子删除.png */,
+			);
+			path = Res;
+			sourceTree = "<group>";
+		};
+		9B6921351E87A85500FB0D45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B6921561E87D92900FB0D45 /* CodeView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B6921561E87D92900FB0D45 /* CodeView */ = {
+			isa = PBXGroup;
+			children = (
+				9B6921571E87D92900FB0D45 /* AuthCodeView.h */,
+				9B6921581E87D92900FB0D45 /* AuthCodeView.m */,
+			);
+			path = CodeView;
+			sourceTree = "<group>";
+		};
+		9BFBAD621E99EF5F009C3575 /* SKFCamera */ = {
+			isa = PBXGroup;
+			children = (
+				9BFBAD631E99EF5F009C3575 /* LLSimpleCamera+Helper.h */,
+				9BFBAD641E99EF5F009C3575 /* LLSimpleCamera+Helper.m */,
+				9BFBAD651E99EF5F009C3575 /* LLSimpleCamera.h */,
+				9BFBAD661E99EF5F009C3575 /* LLSimpleCamera.m */,
+				9BFBAD671E99EF5F009C3575 /* SKFCamera.bundle */,
+				9BFBAD681E99EF5F009C3575 /* SKFCamera.h */,
+				9BFBAD691E99EF5F009C3575 /* SKFCamera.m */,
+				9BFBAD6A1E99EF5F009C3575 /* TOActivityCroppedImageProvider.h */,
+				9BFBAD6B1E99EF5F009C3575 /* TOActivityCroppedImageProvider.m */,
+				9BFBAD6C1E99EF5F009C3575 /* TOCropOverlayView.h */,
+				9BFBAD6D1E99EF5F009C3575 /* TOCropOverlayView.m */,
+				9BFBAD6E1E99EF5F009C3575 /* TOCroppedImageAttributes.h */,
+				9BFBAD6F1E99EF5F009C3575 /* TOCroppedImageAttributes.m */,
+				9BFBAD701E99EF5F009C3575 /* TOCropScrollView.h */,
+				9BFBAD711E99EF5F009C3575 /* TOCropScrollView.m */,
+				9BFBAD721E99EF5F009C3575 /* TOCropToolbar.h */,
+				9BFBAD731E99EF5F009C3575 /* TOCropToolbar.m */,
+				9BFBAD741E99EF5F009C3575 /* TOCropView.h */,
+				9BFBAD751E99EF5F009C3575 /* TOCropView.m */,
+				9BFBAD761E99EF5F009C3575 /* TOCropViewController.h */,
+				9BFBAD771E99EF5F009C3575 /* TOCropViewController.m */,
+				9BFBAD781E99EF5F009C3575 /* TOCropViewControllerLocalizable.strings */,
+				9BFBAD791E99EF5F009C3575 /* TOCropViewControllerTransitioning.h */,
+				9BFBAD7A1E99EF5F009C3575 /* TOCropViewControllerTransitioning.m */,
+				9BFBAD7B1E99EF5F009C3575 /* UIImage+CropRotate.h */,
+				9BFBAD7C1E99EF5F009C3575 /* UIImage+CropRotate.m */,
+				9BFBAD7D1E99EF5F009C3575 /* UIImage+FixOrientation.h */,
+				9BFBAD7E1E99EF5F009C3575 /* UIImage+FixOrientation.m */,
+			);
+			path = SKFCamera;
+			sourceTree = "<group>";
+		};
+		9BFBAD8E1E99F67A009C3575 /* YBPopupMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9BFBAD8F1E99F67A009C3575 /* YBPopupMenu.h */,
+				9BFBAD901E99F67A009C3575 /* YBPopupMenu.m */,
+			);
+			path = YBPopupMenu;
+			sourceTree = "<group>";
+		};
+		9BFBAD921E99FE1E009C3575 /* OCRAPI */ = {
+			isa = PBXGroup;
+			children = (
+				9BFBAD931E99FE1E009C3575 /* PackageAPI.h */,
+				9BFBAD941E99FE1E009C3575 /* PackageAPI.m */,
+			);
+			path = OCRAPI;
+			sourceTree = "<group>";
+		};
+		D10406638D9537C0E35A798C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50742074F7D1DFDE6A46A42B /* libPods-开票软件.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B6920C61E85278100FB0D45 /* 开票软件 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B6920E11E85278100FB0D45 /* Build configuration list for PBXNativeTarget "开票软件" */;
+			buildPhases = (
+				E508F638F44741B438C418CE /* [CP] Check Pods Manifest.lock */,
+				9B6920C31E85278100FB0D45 /* Sources */,
+				9B6920C41E85278100FB0D45 /* Frameworks */,
+				9B6920C51E85278100FB0D45 /* Resources */,
+				35E3342A536574510D4A4609 /* [CP] Embed Pods Frameworks */,
+				97E9B2E4783A76DC335E4BE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "开票软件";
+			productName = "开票软件";
+			productReference = 9B6920C71E85278100FB0D45 /* 开票软件.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B6920BF1E85278100FB0D45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Lee;
+				TargetAttributes = {
+					9B6920C61E85278100FB0D45 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 639CA327T8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B6920C21E85278100FB0D45 /* Build configuration list for PBXProject "开票软件" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B6920BE1E85278100FB0D45;
+			productRefGroup = 9B6920C81E85278100FB0D45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B6920C61E85278100FB0D45 /* 开票软件 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B6920C51E85278100FB0D45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6920DD1E85278100FB0D45 /* LaunchScreen.storyboard in Resources */,
+				9B6920DA1E85278100FB0D45 /* Assets.xcassets in Resources */,
+				9B6920EE1E86788300FB0D45 /* Main.storyboard in Resources */,
+				9BFBAD811E99EF5F009C3575 /* SKFCamera.bundle in Resources */,
+				9B09F3531E88C15F0035A618 /* 二维码.png in Resources */,
+				9B6921431E87A85500FB0D45 /* 叉子删除.png in Resources */,
+				9B6921381E87A85500FB0D45 /* HMScanner.bundle in Resources */,
+				9B6921521E87C46D00FB0D45 /* login_qq.png in Resources */,
+				9B6921531E87C46D00FB0D45 /* login_weibo.png in Resources */,
+				9BFBAD8A1E99EF5F009C3575 /* TOCropViewControllerLocalizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35E3342A536574510D4A4609 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-开票软件/Pods-开票软件-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97E9B2E4783A76DC335E4BE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-开票软件/Pods-开票软件-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E508F638F44741B438C418CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B6920C31E85278100FB0D45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BFBAD851E99EF5F009C3575 /* TOCroppedImageAttributes.m in Sources */,
+				9BFBAD7F1E99EF5F009C3575 /* LLSimpleCamera+Helper.m in Sources */,
+				9BFBAD831E99EF5F009C3575 /* TOActivityCroppedImageProvider.m in Sources */,
+				9BFBAD8B1E99EF5F009C3575 /* TOCropViewControllerTransitioning.m in Sources */,
+				9BFBAD841E99EF5F009C3575 /* TOCropOverlayView.m in Sources */,
+				9B6920D81E85278100FB0D45 /* ____.xcdatamodeld in Sources */,
+				9B69214C1E87C04D00FB0D45 /* RegisterViewController.m in Sources */,
+				9B6921391E87A85500FB0D45 /* HMScanner.m in Sources */,
+				9B6921371E87A85500FB0D45 /* HMScanerCardViewController.m in Sources */,
+				9B69213F1E87A85500FB0D45 /* MJRViewController.m in Sources */,
+				9B69213D1E87A85500FB0D45 /* HMScannerViewController.m in Sources */,
+				9B6921361E87A85500FB0D45 /* MBProgressHUD.m in Sources */,
+				9BFBAD871E99EF5F009C3575 /* TOCropToolbar.m in Sources */,
+				9B4F18CD1E8DE2F7009E5C69 /* LoginModel.m in Sources */,
+				9B69214B1E87C04D00FB0D45 /* ForgetViewController.m in Sources */,
+				9B69214F1E87C1BE00FB0D45 /* LogInViewController.m in Sources */,
+				9BFBAD861E99EF5F009C3575 /* TOCropScrollView.m in Sources */,
+				9B6921421E87A85500FB0D45 /* AppDelegate.m in Sources */,
+				9BFBAD8D1E99EF5F009C3575 /* UIImage+FixOrientation.m in Sources */,
+				9BFBAD881E99EF5F009C3575 /* TOCropView.m in Sources */,
+				9B6921411E87A85500FB0D45 /* ViewController.m in Sources */,
+				9B4886111E9F1340009C92CA /* CodeViewController.m in Sources */,
+				9B6921401E87A85500FB0D45 /* OrdinaryViewController.m in Sources */,
+				9BFBAD891E99EF5F009C3575 /* TOCropViewController.m in Sources */,
+				9BFBAD801E99EF5F009C3575 /* LLSimpleCamera.m in Sources */,
+				9B6921591E87D92900FB0D45 /* AuthCodeView.m in Sources */,
+				9BFBAD821E99EF5F009C3575 /* SKFCamera.m in Sources */,
+				9BFBAD911E99F67A009C3575 /* YBPopupMenu.m in Sources */,
+				9B69213C1E87A85500FB0D45 /* HMScannerMaskView.m in Sources */,
+				9B6920CC1E85278100FB0D45 /* main.m in Sources */,
+				9B69213B1E87A85500FB0D45 /* HMScannerController.m in Sources */,
+				9BFBAD8C1E99EF5F009C3575 /* UIImage+CropRotate.m in Sources */,
+				9B69213A1E87A85500FB0D45 /* HMScannerBorder.m in Sources */,
+				9BFBAD951E99FE1E009C3575 /* PackageAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B6920DB1E85278100FB0D45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6920DC1E85278100FB0D45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9B6920EC1E86788300FB0D45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B6920ED1E86788300FB0D45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B6920DF1E85278100FB0D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B6920E01E85278100FB0D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B6920E21E85278100FB0D45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D0D5F133B776C1D19F769CF /* Pods-开票软件.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 639CA327T8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/开票软件/ALL/Main/PrefixHeader.pch";
+				INFOPLIST_FILE = "开票软件/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lee.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B6920E31E85278100FB0D45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD368F2C05E2CA8104FC19ED /* Pods-开票软件.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 639CA327T8;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/开票软件/ALL/Main/PrefixHeader.pch";
+				INFOPLIST_FILE = "开票软件/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Lee.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B6920C21E85278100FB0D45 /* Build configuration list for PBXProject "开票软件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6920DF1E85278100FB0D45 /* Debug */,
+				9B6920E01E85278100FB0D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B6920E11E85278100FB0D45 /* Build configuration list for PBXNativeTarget "开票软件" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B6920E21E85278100FB0D45 /* Debug */,
+				9B6920E31E85278100FB0D45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B6920D61E85278100FB0D45 /* ____.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B6920D71E85278100FB0D45 /* ____.xcdatamodel */,
+			);
+			currentVersion = 9B6920D71E85278100FB0D45 /* ____.xcdatamodel */;
+			path = ____.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B6920BF1E85278100FB0D45 /* Project object */;
+}

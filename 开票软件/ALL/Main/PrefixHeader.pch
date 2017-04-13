@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  开票软件
+//
+//  Created by Lee on 17/3/27.
+//  Copyright © 2017年 Lee. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "MBProgressHUD.h"
+#import <AFNetworking.h>
+#import "YBPopupMenu.h"
+#import "TOCropViewController.h"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define littleFont  [UIFont systemFontOfSize:14]
+#define KWidth [UIScreen mainScreen].bounds.size.width
+#define KHeight [UIScreen mainScreen].bounds.size.height
+#define SHOW_TEXT(text) MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:[UIApplication sharedApplication].keyWindow animated:YES];hud.mode = MBProgressHUDModeText;hud.labelText = text;hud.removeFromSuperViewOnHide = YES;[hud hide:YES afterDelay:1.5];
+#define IS_IPHONE_5 (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )568) < DBL_EPSILON )
+#define IS_IPHONE_6 (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )667) < DBL_EPSILON )
+#define IS_IPHONE_6_PLUS (fabs((double)[[UIScreen mainScreen] bounds].size.height - (double )960) < DBL_EPSILON )
+#endif /* PrefixHeader_pch */
